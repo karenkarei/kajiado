@@ -4,18 +4,18 @@
   background-color: blueviolet;
 }
 body nav{
-  display: flex;
+  display: inline-flex;
 }
 
 
 body nav menu header{
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
+  align-items: left;
 }
 
 body nav menu header img{
-  display: flex;
+  display: inline-flex;
   height: 50px;
   margin: 1rem;
   border-radius: 1rem;
@@ -29,7 +29,7 @@ body nav menu header div{
 
 body nav menu header div ul{
   display: flex;
-  align-items: center;
+  align-items: left;
   text-align: center;
   text-decoration: dashed;
   margin-left: 3rem;
@@ -75,6 +75,6 @@ section footer{
   background-color: brown;
   padding-top: 5rem;
   height: 5rem;
-  text-align: center;
+  text-align: bottom;
   font-size: large;
 }
