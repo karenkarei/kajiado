@@ -1,8 +1,28 @@
 *{
   margin: 0;
   padding: 0;
-  background-color: blueviolet;
+  background-color: black;
 }
+
+header{
+  color: aliceblue;
+}
+header div{
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+header div img{
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 34px;
+  border-radius: 3.4rem;
+}
+
 body nav{
   display: inline-flex;
 }
@@ -21,29 +41,40 @@ body nav menu header img{
   border-radius: 1rem;
 }
 
-body nav menu header div{
+body header div{
   display: flex;
   align-items: center;
   text-align: center;
+  
 }
-
-body nav menu header div ul{
+ body header div ul{
   display: flex;
-  align-items: left;
-  text-align: center;
-  text-decoration: dashed;
-  margin-left: 3rem;
-}
-
-body nav menu header div ul li{
-  display: flex;
+  flex-direction: row;
   align-items: center;
   text-align: center;
   text-decoration: dashed;
   margin-left: 3rem;
+  margin-left: 30rem;
 }
 
-body nav menu header div ul li a{
+body header div ul li{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration: dashed;
+  margin-left: 5rem;
+  text-decoration: dotted;
+}
+
+hr{
+  margin-top: 2rem;
+}
+div p{
+  margin-top: 2rem;
+  color: white;
+  font-size: 20px;
+}
+body header div ul li a{
   display: flex;
   align-items: center;
   text-align: center;
@@ -53,28 +84,18 @@ body nav menu header div ul li a{
   font-size: 20px;
 }
 
-body nav menu header div ul li a:hover{
+body header div ul li a:hover{
   display: flex;
   align-items: center;
   text-align: left;
   text-decoration: dashed;
   margin-left: 3rem;
-  color: black;
+  color:blue;
   font-size: 20px;
+  transition: .3s ease-in-out;
+  text-decoration: underline;
 
 }
-
-section{
-  color: black;
-}
-section{
-  font-size: 20px;
-
-}
-section footer{
-  background-color:darkgoldenrod;
-  padding-top: 5rem;
-  height: 5rem;
-  text-align: bottom;
-  font-size: large;
+.cc{
+  width: 55rem;
 }
