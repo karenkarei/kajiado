@@ -99,3 +99,10 @@ body header div ul li a:hover{
 .cc{
   width: 55rem;
 }
+section footer{
+  background-color:darkgoldenrod;
+  padding-top: 5rem;
+  height: 5rem;
+  text-align:bottom;
+  font-size: large;
+}
